@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--自定义的消息弹出框-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/toutiao_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/xingqu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="已加载好您感兴趣的头条"
+            android:textColor="#8f8989"
+            android:layout_below="@+id/toutiao_img"
+            android:layout_alignEnd="@+id/x_img" />
+        <TextView
+            android:id="@+id/dakai_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="立即打开"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/xingqu"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/dakai_btn_style"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"/>
+        <ImageView
+            android:id="@+id/x_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cha"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>
