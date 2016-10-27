@@ -12,4 +12,10 @@
         android:textSize="50dp"
         android:gravity="center"
         android:background="@android:color/holo_green_light"/>
+    <Button
+        android:id="@+id/fanhui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回去改变！"
+        android:textSize="30sp"/>
 </LinearLayout>
