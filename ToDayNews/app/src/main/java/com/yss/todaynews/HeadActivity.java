@@ -4,16 +4,22 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.yss.news.utill.NewsAdapetr;
 import com.yss.news.utill.NewsModel;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +28,12 @@ import java.util.List;
  * 这个demo是模仿今日头条消息推介弹出推介内容
  */
 public class HeadActivity extends Activity {
+    //导航栏数据分类数据
+    String[] daohangStr={
+            "推介","视频","热点","推介","视频",
+            "热点","推介", "视频","热点","推介",
+            "视频","热点","推介","视频","热点",
+            "推介","视频","热点"};
     String[] nesData={
             "妈生日我封5万妹妹封3千，看到妈给我回的礼物，我当场掀桌大骂",
             "京东员工被警察带走，贪污能吞掉一家公司总收入的7%！",
@@ -60,12 +72,14 @@ public class HeadActivity extends Activity {
             "重庆电视台","CCTV_1","腾讯新闻"};
     ImageView youxiangImg;
     TextView textView2;
+    RadioGroup radioGroup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.head_layout);
         youxiangImg= (ImageView) findViewById(R.id.emil_img);
         textView2= (TextView) findViewById(R.id.textView2);
+        addRadioGroup();
         youxiangImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,6 +89,15 @@ public class HeadActivity extends Activity {
                 }
             }
         });
+
+        //RadioGroup监听事件
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            }
+        });
+
         List<NewsModel> list=getData();
         ListView listView= (ListView) findViewById(R.id.new_listview);
         NewsAdapetr newsAdapetr=new NewsAdapetr(this,list);
@@ -162,4 +185,31 @@ public class HeadActivity extends Activity {
             startActivity(intent);
         }
     };
+    //创建RadioButton方法
+    public RadioButton createRadioButton(String str){
+        RadioButton radioButton=new RadioButton(this);
+        LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+        );
+        params.setMargins(10,0,0,0);
+        radioButton.setLayoutParams(params);
+        radioButton.setPadding(8,8,8,8);
+        radioButton.setText(str);
+        radioButton.setTextSize(20);
+        radioButton.setTextColor(000000);
+      //  Drawable drawable=getResources().getDrawable(R)
+        radioButton.setButtonDrawable(null);
+        radioButton.setGravity(Gravity.CENTER);
+        return radioButton;
+    }
+    //给RdioGroup添加控件
+    public void addRadioGroup(){
+        LayoutInflater layoutInflater=LayoutInflater.from(this);
+        radioGroup= (RadioGroup) findViewById(R.id.radiogroup);
+        for (int i=0;i<daohangStr.length;i++){
+            RadioButton radioButton= createRadioButton(daohangStr[i]);
+            radioGroup.addView(radioButton);
+        }
+    }
 }
