@@ -97,6 +97,7 @@ public class WeiXinActivity extends Activity {
         transaction.replace(R.id.content_btn,tongxunFragment);
         transaction.commit();
     }
+    /*添加通讯*/
     public void addFaXian(){
         faxianFragment=new FaxianFragment();
         fragmentManager=getFragmentManager();
@@ -104,6 +105,9 @@ public class WeiXinActivity extends Activity {
         transaction.replace(R.id.content_btn,faxianFragment);
         transaction.commit();
     }
+/*
+    添加我的
+*/
     public void addWoDe(){
         wodeFragment=new WodeFarament();
         fragmentManager=getFragmentManager();
