@@ -46,7 +46,6 @@ public class AnimotionTestActivity extends Activity{
         int screenWidth=dm.widthPixels;
         int screenHeight=dm.heightPixels;
        /* for(int i=0;i>0;i++){
-
         }*/
         TranslateAnimation translateAnimation=new TranslateAnimation(0,screenWidth,0,screenHeight);
         translateAnimation.setDuration(5000);//动画持续时间
