@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="19"
+    format="7"
+    timestamp="28480003968524"
+    token="8496505286245163992" >
+
+    <task
+        name="javac"
+        duration="94" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="17" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="E:\Android\GitHubAndroid\ViewPagerDemo\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="28480003968524" >
+        <artifact
+            location="E:\Android\GitHubAndroid\ViewPagerDemo\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

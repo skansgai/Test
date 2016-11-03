@@ -1,0 +1,3 @@
+CHANGED,E:\Android\GitHubAndroid\ViewPagerDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\yss\viewpagerdemo\BaiduTuActvity$override.class
+CHANGED,E:\Android\GitHubAndroid\ViewPagerDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\yss\viewpagerdemo\BaiduTuActvity$1$override.class
+CHANGED,E:\Android\GitHubAndroid\ViewPagerDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

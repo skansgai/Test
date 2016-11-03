@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" format="dimension">
+        </attr>
+        <attr name="scrollbars" format="boolean">
+        </attr>
+    </declare-styleable>
+</resources>
