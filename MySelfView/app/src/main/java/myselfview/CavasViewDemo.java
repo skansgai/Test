@@ -31,9 +31,7 @@ public class CavasViewDemo extends View {
         wm.getDefaultDisplay().getMetrics(outMetrics);
         mScreenWidth=outMetrics.widthPixels;
         mScreenHeight=outMetrics.heightPixels;
-
     }
-
     public CavasViewDemo(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }

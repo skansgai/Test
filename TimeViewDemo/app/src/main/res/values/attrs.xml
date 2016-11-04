@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="no_finger_inner_color" format="color" />
+        <attr name="no_finger_outter_color" format="color" />
+        <attr name="finger_on_color" format="color" />
+        <attr name="finger_up_color" format="color" />
+        <attr name="line_view_count" format="integer" />
+        <attr name="try_times" format="integer" />
+    </declare-styleable>
+
+</resources>
