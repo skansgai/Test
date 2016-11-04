@@ -169,7 +169,7 @@ public class MyTimeView extends View {
     private void drawNumberTime(Canvas canvas){
         String timeSecond=second+10+"";
         String timeMinute=minute+":";
-        String timeHours=(int)hours+":";
+        String timeHours=(int)hours+12+":";
         Paint timePaint = new Paint();
         timePaint.setColor(getResources().getColor(android.R.color.holo_red_light));
         timePaint.setStrokeWidth(5);
@@ -197,7 +197,6 @@ public class MyTimeView extends View {
         minute = getTimes(date,Calendar.MINUTE);
         hours = getTimes(date,Calendar.HOUR)+minute/12*0.2;
     }
-
 //获得时间
     private int getTimes(Date date,int calendarField){
         Calendar calendar = Calendar.getInstance();
