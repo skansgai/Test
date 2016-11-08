@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.yss.thememo.R;
 
@@ -16,9 +17,7 @@ import com.yss.thememo.R;
 public class ThememoAddActivity extends Activity {
     Button thememoAddBtn;
     EditText addContentEdit;
-    int count=0;
     String editStr;
-    String key;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,16 +29,17 @@ public class ThememoAddActivity extends Activity {
         thememoAddBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Bundle bundle=new Bundle();
+                Toast.makeText(ThememoAddActivity.this,"成功保存"+editStr,Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
     }
     public void createSharedPreferences(){
-        key=editStr.substring(0,editStr.length());
         SharedPreferences sharedPreferences=getSharedPreferences("Thememo", Context.MODE_WORLD_WRITEABLE);
         SharedPreferences.Editor editor=sharedPreferences.edit();
-        editor.putString("Data",editStr);
+        if (editStr!=null){
+            editor.putString("Data",editStr);
+        }
         editor.commit();
     }
 }

@@ -1,10 +1,13 @@
 package thememo;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -28,6 +31,7 @@ public class ThememoActivity extends Activity {
     private Button thememoAddBtn;
     private ListView thememoListview;
     String str;
+    ThememoAdpater thememoAdpater;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +39,7 @@ public class ThememoActivity extends Activity {
         thememoEdit= (AutoCompleteTextView) findViewById(R.id.search_edit);
         thememoAddBtn= (Button) findViewById(R.id.thememo_add_btn);
         thememoListview= (ListView) findViewById(R.id.thememo_listview);
+        checkUserPremission();
         getSharedPrefsData();
         List<ThememoModel> list=createData();
         thememoAddBtn.setOnClickListener(new View.OnClickListener() {
@@ -45,9 +50,19 @@ public class ThememoActivity extends Activity {
             }
         });
 
-        ThememoAdpater thememoAdpater=new ThememoAdpater(this,list);
+        thememoAdpater=new ThememoAdpater(this,list);
         thememoListview.setAdapter(thememoAdpater);
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        List<ThememoModel> list=createData();
+        thememoAdpater=new ThememoAdpater(this,list);
+        thememoListview.setAdapter(thememoAdpater);
+
+    }
+
     //获取数据源
     List<ThememoModel> list=new ArrayList<ThememoModel>();
     public List<ThememoModel> createData(){
@@ -72,5 +87,22 @@ public class ThememoActivity extends Activity {
         SharedPreferences.Editor editor=sharedPreferences.edit();
         str=sharedPreferences.getString("Data","1233545");
         editor.commit();
+    }
+    //获取动态权限
+    public void checkUserPremission(){
+        if (Build.VERSION.SDK_INT>23){
+            ActivityCompat.requestPermissions(this,//上下文
+                    new String[]{
+                            Manifest.permission.READ_EXTERNAL_STORAGE,
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE
+                    },
+                    1001 );//请求码
+        }
+    }
+    //动态权限回调函数
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 }
