@@ -47,10 +47,10 @@ MERGED from [com.android.support:support-compat:24.2.0] E:\Android\GitHubAndroid
 		ADDED from E:\Android\GitHubAndroid\ViewPagerDemo\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from E:\Android\GitHubAndroid\ViewPagerDemo\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.yss.viewpagerdemo.BaiduTuActvity
+activity#sharedpreferences.SharedPeferencesActivity
 ADDED from E:\Android\GitHubAndroid\ViewPagerDemo\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from E:\Android\GitHubAndroid\ViewPagerDemo\app\src\main\AndroidManifest.xml:11:19-49
+		ADDED from E:\Android\GitHubAndroid\ViewPagerDemo\app\src\main\AndroidManifest.xml:11:19-76
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from E:\Android\GitHubAndroid\ViewPagerDemo\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN

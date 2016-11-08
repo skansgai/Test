@@ -56,6 +56,10 @@
         "source": "E:\\Android\\GitHubAndroid\\ViewPagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "E:\\Android\\GitHubAndroid\\ViewPagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bitmap.xml",
+        "source": "E:\\Android\\GitHubAndroid\\ViewPagerDemo\\app\\src\\main\\res\\layout\\activity_bitmap.xml"
+    },
+    {
         "merged": "E:\\Android\\GitHubAndroid\\ViewPagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "E:\\Android\\GitHubAndroid\\ViewPagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_part_time.xml"
     },

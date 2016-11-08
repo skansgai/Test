@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<AutoCompleteTextView
+    android:id="@+id/search_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@mipmap/search"/>
+    <ListView
+        android:layout_weight="1"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/thememo_listview">
+    </ListView>
+    <Button
+        android:id="@+id/thememo_add_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:background="@drawable/add_thememo_btn"
+        android:text="+"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
