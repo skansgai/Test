@@ -87,6 +87,7 @@ public class ThememoActivity extends Activity {
         SharedPreferences.Editor editor=sharedPreferences.edit();
         str=sharedPreferences.getString("Data","1233545");
         editor.commit();
+
     }
     //获取动态权限
     public void checkUserPremission(){
