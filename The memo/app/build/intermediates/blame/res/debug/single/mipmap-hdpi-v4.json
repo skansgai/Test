@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\The memo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android\\GitHubAndroid\\The memo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\The memo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\search.png",
+        "source": "E:\\Android\\GitHubAndroid\\The memo\\app\\src\\main\\res\\mipmap-hdpi\\search.png"
+    }
+]

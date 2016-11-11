@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MenuProject\\app\\build\\intermediates\\res\\merged\\debug\\animator\\scale.xml",
+        "source": "E:\\Android\\GitHubAndroid\\MenuProject\\app\\src\\main\\res\\animator\\scale.xml"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MenuProject\\app\\build\\intermediates\\res\\merged\\debug\\animator\\rotatey360.xml",
+        "source": "E:\\Android\\GitHubAndroid\\MenuProject\\app\\src\\main\\res\\animator\\rotatey360.xml"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MenuProject\\app\\build\\intermediates\\res\\merged\\debug\\animator\\scalex.xml",
+        "source": "E:\\Android\\GitHubAndroid\\MenuProject\\app\\src\\main\\res\\animator\\scalex.xml"
+    }
+]

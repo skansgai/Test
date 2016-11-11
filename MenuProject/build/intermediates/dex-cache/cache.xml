@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_fa1009c912e63778df41058180a2bbdf1f80c988.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_34ce8dc9f409fb3e154623105b726d9c54c18a4c.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_29705507b419669d0e9d4a395e0a6b2205a4cb89.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_ec7b177f42330e7f8eaf84f15b265086e56b8d9c.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_5fd6d282cc088e5435a0d0f65689871767feada5.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_cbc4654f31afd6694516167702b55a44f9c43143.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_03119cc009f2ad534d7fa6433190c14c757d9a95.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_eb7e2c4c6e5b4ea194001557e301263d51b9a042.jar" />
+    </item>
+    <item
+        jar="D:\Andoid\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_c615181933ee6f7d5525c07d483254e85bae30f3.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_f8a1f85afe954ff3976c8b3f8de3bbcc68e4e537.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_277da7b20cacb5522bbafe860c19c7d67a165af2.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_7719fc8069c97b4e19baef6b51cc069e76ed31ad.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_842b267f5d83faf97260a5e50154bbc2d172a18e.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_19a2f9b012b8242c52d457e6710ee4682702c304.jar" />
+    </item>
+    <item
+        jar="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="E:\Android\GitHubAndroid\MenuProject\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_506ca61756bb2f196ffb9205b2879a26c09d8e5c.jar" />
+    </item>
+
+</items>

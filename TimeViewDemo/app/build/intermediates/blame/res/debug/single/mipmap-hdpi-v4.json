@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\img1.jpg",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\img1.jpg"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\img4.jpg",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\img4.jpg"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\img3.gif",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\img3.gif"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\img5.jpg",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\img5.jpg"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\img2.gif",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\img2.gif"
+    }
+]

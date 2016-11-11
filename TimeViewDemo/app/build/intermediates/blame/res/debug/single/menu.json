@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zhihumenu.xml",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\menu\\zhihumenu.xml"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

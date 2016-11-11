@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/user_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/yuan_style"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/weixin_tltile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订阅号"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/weixin_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订阅号"
+            android:textSize="15sp"
+            android:layout_below="@+id/weixin_tltile"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:id="@+id/weixin_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下午3：11"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignBottom="@+id/weixin_tltile"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

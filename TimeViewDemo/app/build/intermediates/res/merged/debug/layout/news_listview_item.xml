@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2010年6月13日 - 怎么我电脑里面的图片文件夹打开后看不到预览图了,一定要双击鼠标左键才能看到!以前不是这样,想请
+    教一下高手们是什么原因,怎样解决!谢谢!我是新来的,..."/>
+        <RelativeLayout
+            android:id="@+id/new_img"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/ic_launcher"
+            >
+            <TextView
+                android:id="@+id/duotu"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="多图"
+                android:alpha="0.5"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@mipmap/duotu"
+                android:background="@android:color/black"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

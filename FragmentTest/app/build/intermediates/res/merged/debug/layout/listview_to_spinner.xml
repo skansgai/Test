@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<view.MySelfLinerLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_green_dark"
+    android:gravity="right"
+    >
+    <view.MySelfButton
+        android:id="@+id/spinner_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/add"
+        android:padding="10dp"/>
+</view.MySelfLinerLayout>
+    <view.MySelfListView
+        android:id="@+id/listview_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp">
+    </view.MySelfListView>
+</LinearLayout>

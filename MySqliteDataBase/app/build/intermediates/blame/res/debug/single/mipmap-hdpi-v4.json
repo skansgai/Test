@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\income.png",
+        "source": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\src\\main\\res\\mipmap-hdpi\\income.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\tongji.png",
+        "source": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\src\\main\\res\\mipmap-hdpi\\tongji.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\expend.png",
+        "source": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\src\\main\\res\\mipmap-hdpi\\expend.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\qindan.png",
+        "source": "E:\\Android\\GitHubAndroid\\MySqliteDataBase\\app\\src\\main\\res\\mipmap-hdpi\\qindan.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\message.png",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\message.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\message_empty.png",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\message_empty.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\menu.png",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\menu.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\duotu.png",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\duotu.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "E:\\Android\\GitHubAndroid\\TimeViewDemo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

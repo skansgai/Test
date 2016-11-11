@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\ToDayNews\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android\\GitHubAndroid\\ToDayNews\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\GitHubAndroid\\ToDayNews\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\youxiang.png",
+        "source": "E:\\Android\\GitHubAndroid\\ToDayNews\\app\\src\\main\\res\\mipmap-xhdpi\\youxiang.png"
+    }
+]
